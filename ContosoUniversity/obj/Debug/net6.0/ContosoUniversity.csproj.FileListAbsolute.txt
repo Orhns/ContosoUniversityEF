@@ -269,3 +269,4 @@ C:\Users\Phoenix\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\net6
 C:\Users\Phoenix\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Phoenix\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Phoenix\source\repos\ContosoUniversity\ContosoUniversity\obj\Debug\net6.0\ContosoUniversity.csproj.CopyComplete
+C:\Users\Phoenix\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

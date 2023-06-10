@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "poEuHMbB+G++QLeFcZlk1rq0bPQAWAAbbO91EIU2Ukz6UVNeHhjSqqQafq4ThBP5TVze9KAIy+nveIWbp04Q/A==",
+  "dgSpecHash": "BcZMgxvpLA5uge+xGIzCyi130l01Xj2vswxLvHz0rJZzqwG9J/wgFIpXL4ncloKvEzHSGwBXYgGJattmBN9n9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Phoenix\\source\\repos\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Phoenix\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Phoenix\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\Phoenix\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\Phoenix\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.16\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.16.nupkg.sha512",
     "C:\\Users\\Phoenix\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\Phoenix\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\Phoenix\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
