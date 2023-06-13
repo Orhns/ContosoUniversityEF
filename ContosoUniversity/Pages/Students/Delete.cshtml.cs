@@ -27,7 +27,7 @@ namespace ContosoUniversity.Pages.Students
 
         public async Task<IActionResult> OnGetAsync(int? id, bool? saveChangesError = false)
         {
-            if (id == null || _context.Student == null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -50,20 +50,23 @@ namespace ContosoUniversity.Pages.Students
 
         public async Task<IActionResult> OnPostAsync(int? id)
         {
-            if (id == null || _context.Student == null)
+            if (id == null)
             {
                 return NotFound();
             }
-            var student = await _context.Student.FindAsync(id);
 
-            if (student == null)
+            Student = await _context.Students
+                .AsNoTracking()
+                .FirstOrDefaultAsync(m => m.ID == id);
+
+            if (Student == null)
             {
                 return NotFound();
             }
 
             try
             {
-                _context.Students.Remove(student);
+                _context.Students.Remove(Student);
                 await _context.SaveChangesAsync();
                 return RedirectToPage("./Index");
             }

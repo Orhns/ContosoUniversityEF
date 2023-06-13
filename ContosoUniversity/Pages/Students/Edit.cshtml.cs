@@ -25,7 +25,7 @@ namespace ContosoUniversity.Pages.Students
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Student == null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -62,9 +62,9 @@ namespace ContosoUniversity.Pages.Students
             return Page();
         }
 
-        private bool StudentExists(int id)
+        /*private bool StudentExists(int id)
         {
           return _context.Student.Any(e => e.ID == id);
-        }
+        }*/
     }
 }
